@@ -129,7 +129,6 @@ if ($action === 'show-login-form') {
 } else {
     $error = "The <strong>$action</strong> action was not handled in the code.";
     logErrorMessage($error);
-    $movies = MovieDB::getAllMovies();
     $pageTitle = 'Code Error';
     header('Location:.');
 }
