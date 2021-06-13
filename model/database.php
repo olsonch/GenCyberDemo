@@ -1,9 +1,9 @@
 <?php
 class Database {
-    // add your 3 numbers from your username to the 2 lines below
+    // add the 3 numbers from your username to the 2 lines below
     private static $dsn = 'mysql:host=localhost;dbname=gencyber_cyber';
     private static $username = 'gencyber_cyber';
-    // add your password to the line below btween the ''
+    // add your password to the line below between the ''
     private static $password = '';
     private static $db;
 
