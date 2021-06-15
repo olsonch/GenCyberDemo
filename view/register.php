@@ -14,13 +14,13 @@ include 'header.php';
     </div>
     <div class="form-group">
         <label for="password">Password:<sup>*</sup></label>
-        <input type="password" name="password" id="password" class="form-control<?php echo (!empty($errorPassword)) ? ' is-invalid' : ''; ?>"
+        <input type="text" name="password" id="password" class="form-control<?php echo (!empty($errorPassword)) ? ' is-invalid' : ''; ?>"
                value="<?php if (!empty($password)) echo $password; ?>">
         <?php if (!empty($errorPassword)) echo "<span class='invalid-feedback font-weight-bold'>$errorPassword</span>\n"; ?>
     </div>
     <div class="form-group">
         <label for="confirm-password">Confirm Password:<sup>*</sup></label>
-        <input type="password" name="confirm-password" id="confirm-password" class="form-control<?php echo (!empty($errorConfirmPassword)) ? ' is-invalid' : ''; ?>"
+        <input type="text" name="confirm-password" id="confirm-password" class="form-control<?php echo (!empty($errorConfirmPassword)) ? ' is-invalid' : ''; ?>"
                 value="<?php if (!empty($confirmPassword)) echo $confirmPassword; ?>">
         <?php if (!empty($errorConfirmPassword)) echo "<span class='invalid-feedback font-weight-bold'>$errorConfirmPassword</span>\n"; ?>
     </div>
